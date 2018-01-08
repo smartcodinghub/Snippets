@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Type Method</Title>
+        <Author>Óscar Vicente Pérez</Author>
+      <Description>Generates Void Method</Description>
+      <Shortcut>method</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>method</ID>
+          <Default>method</Default>
+          <ToolTip>method</ToolTip>
+        </Literal>
+        <Literal>
+          <ID>type</ID>
+          <Default>void</Default>
+          <ToolTip>type</ToolTip>
+        </Literal>
+      </Declarations>
+      <Code Language="CSharp"><![CDATA[public $type$ $method$()
+{
+	$end$
+}]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
